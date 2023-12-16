@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/ViteAmin/',
+  head: [['link', { rel: 'icon', href: '/ViteAmin/img/my-avatar.png' }]],
   title: "ViteAmin",
   description: "My VitePress portfolio",
   locales: {
