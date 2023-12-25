@@ -3,29 +3,29 @@
 layout: home
 
 hero:
-  name: "Bienvenue! WIP 🚧 🔨"
+  name: "Привет! НЗП 🚧 🔨"
   text: "Vite + Amin = ViteAmin 🧠"
   tagline: 
   image:
     src: /img/my-avatar.png
   actions:
     - theme: brand
-      text: Qui suis-je?
-      link: /fr/pages/me/who-am-i
+      text: Кто я?
+      link: /ru/pages/me/who-am-i
     - theme: alt
-      text: Mes projets
-      link: /fr/pages/projects/my-projects
+      text: Мои проекты
+      link: /ru/pages/projects/my-projects
 
 features:
-  - title: Découvrez moi
+  - title: узнать обо мне
     icon: 
       src: /img/my-avatar.png
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Suivez mes projets
+  - title: Следите за моими проектами
     icon: 
       src: /img/my-avatar.png
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Restons connecté
+  - title: Давайте оставаться на связи
     icon: 
       src: /img/my-avatar.png
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
