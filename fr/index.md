@@ -14,7 +14,7 @@ hero:
       link: /fr/pages/me/who-am-i
     - theme: alt
       text: Mes projets
-      link: /fr/pages/projects/my-projects
+      link: /fr/pages/me/my-projects
 
 features:
   - title: Découvrez moi

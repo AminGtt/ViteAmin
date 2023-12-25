@@ -14,7 +14,7 @@ hero:
       link: /ru/pages/me/who-am-i
     - theme: alt
       text: Мои проекты
-      link: /ru/pages/projects/my-projects
+      link: /ru/pages/me/my-projects
 
 features:
   - title: узнать обо мне

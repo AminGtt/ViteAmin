@@ -1,3 +1,0 @@
-# Front projects
-
-WIP

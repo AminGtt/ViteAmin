@@ -1,3 +1,0 @@
-# WebXR projects
-
-WIP

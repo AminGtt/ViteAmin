@@ -1,3 +1,0 @@
-# Mes appareils
-
-WIP 🔧
