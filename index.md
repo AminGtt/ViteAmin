@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Welcome! WIP 🚧 🔨"
+  name: "Welcome! WIP 🔨"
   text: "Vite + Amin = ViteAmin 🧠"
-  tagline: 
+  tagline: "I'm pleased to see you here! <br>You will find all my projects and even more in this place 👋🏽"
   image:
     src: /img/my-avatar.png
   actions:
@@ -18,15 +18,43 @@ hero:
 
 features:
   - title: Discover me
+    # details: Lorem
+    link: /pages/me/who-am-i
+    linkText: Wanna know more?
     icon: 
       src: /img/my-avatar.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Follow my projects
-    icon: 
-      src: /img/my-avatar.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Stay connected
+    # details: Lorem ipsum
     icon: 
       src: /img/my-avatar.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Follow my evolution
+    details: Take a look in my creations
+    link: "/pages/me/my-projects"
+    linkText: Check out my projects
+    icon: 
+      src: /img/my-avatar.png
 ---
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://github.com/AminGtt.png',
+    name: 'Amin',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/AminGtt' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/amin-gatta-4547a41b7/' }
+    ]
+  },
+]
+</script>
+
+<div class="vp-doc team-cards">
+
+## Me
+
+<VPTeamMembers size="small" :members="members" />
+
+</div>
