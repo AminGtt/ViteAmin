@@ -22,17 +22,17 @@ features:
     link: /pages/me/who-am-i
     linkText: Wanna know more?
     icon: 
-      src: /img/my-avatar.png
+      src: https://img.icons8.com/3d-fluency/94/search.png
   - title: Stay connected
     # details: Lorem ipsum
     icon: 
-      src: /img/my-avatar.png
+      src: https://img.icons8.com/3d-fluency/94/connected.png
   - title: Follow my evolution
     details: Take a look in my creations
     link: "/pages/me/my-projects"
     linkText: Check out my projects
     icon: 
-      src: /img/my-avatar.png
+      src: https://img.icons8.com/3d-fluency/94/visible.png
 ---
 
 <script setup>

@@ -59,7 +59,9 @@ p.link-text-value,
 .pager-link:hover,
 .pager:hover,
 .VPSidebarItem .is-active,
-.header-anchor::before
+.header-anchor::before,
+.VPSocialLinks .VPSocialLink:hover,
+.VPSocialLinks .VPSocialLink svg:hover
 {
     color: var(--vp-c-brand-1);
 }

@@ -1,11 +1,17 @@
-# My projects
+# My projects <Badge type="tip" text="WIP" />
 
-Here you'll find my projects 🗃️
+::: tip Hey 👋🏽
+Here I will share you my projects done or my plans for future ones
+:::
 
 ## Frontend projects 
 
-WIP
+ViteStation 3
+
+Interactive Solar System
+
+ISS Live Tracker
 
 ## WebXR projects 
 
-WIP
+Aframe-test

@@ -1,19 +1,57 @@
-# My softwares 
+# My softwares <Badge type="tip" text="WIP" />
 
-Here I will list softwares that I use/like 🔧
+Here I will share you the softwares that I use/like 🔧
 
 ## MacOS
 
-WIP
+- Arc
+- rectangle 
+- Maccy
+- MenubarX
+- AiTab
+- HiddenBar
+- CodeWhisperer
+- BatteryBoi
+- Jiffy
+- Brandy
+- The unarchiver
+- AppCleaner
+- Wineskin winery
+- Fanny
+- KeyboardCleanTool
+- iTerm2
+- xbar
+
+
 
 ## Windows
 
-WIP
+- Steam
+- Battle.net
 
 ## Linux
 
-WIP
+- nmap
+- EmuDeck
+- WineTricks
 
 ## Others
 
-WIP
+- IDEs :
+    - VSCode
+    - Jetbrains suite
+    - Android studio
+    - Fleet
+    - XCode
+- Docker
+- mpv
+- qBitTorrent
+- Jellyfin
+- Prowlarr
+- Radarr
+- Sonarr
+- Lidarr
+- Discord
+- Bitwarden
+- Deezer
+- Brave
