@@ -1,7 +1,5 @@
 # My devices <Badge type="tip" text="WIP" />
 
-Here is my IT stuff 💻
-
 ## Apple
 
 - Macbook pro 16' 2019
@@ -32,3 +30,4 @@ Here is my IT stuff 💻
 - Xbox One X
 - Xiaomi smart camera C200
 - Lenovo M10+ FHD
+- PS2

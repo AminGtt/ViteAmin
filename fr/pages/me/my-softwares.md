@@ -1,19 +1,21 @@
-# Mes logiciels
+<script setup>
+    import SoftwareCard from "../../../components/SoftwareCard.vue"
+</script>
 
-WIP 🔧
+# Mes logiciels <Badge type="tip" text="WIP" />
 
 ## MacOS
 
-WIP
+<SoftwareCard wanted='mac' />
 
 ## Windows
 
-WIP
+<SoftwareCard wanted='win' />
 
 ## Linux
 
-WIP
+<SoftwareCard wanted='linux' />
 
 ## Autres
 
-WIP
+<SoftwareCard wanted='other' />

@@ -44,7 +44,9 @@
     flex-direction: column;
 }
 
-.VPLink a.pager-link{
+.VPLink a.pager-link,
+.techno-wrapper .techno:hover
+{
     border-color: var(--vp-c-brand-1);
 }
 
@@ -64,6 +66,11 @@ p.link-text-value,
 .VPSocialLinks .VPSocialLink svg:hover
 {
     color: var(--vp-c-brand-1);
+}
+
+.vp-doc h2 {
+    border: none;
+    padding: 0;
 }
 
 @keyframes rainbow {

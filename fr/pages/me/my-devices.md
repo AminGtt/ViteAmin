@@ -1,23 +1,33 @@
-# Mes appareils
+# Mes appareils <Badge type="tip" text="WIP" />
 
-WIP 🔧
+## Apple
 
-## MacOS
-
-WIP
+- Macbook pro 16' 2019
+- iPhone 13 Pro
+- iPad 5th gen
+- iPad 3rd gen
+- iPod nano 4th gen
 
 ## Windows
 
-WIP
+- My PC : 
+    - i5-11500
+    - 32gb DDR4
+    - RTX 4070
+    - 2To SSD m.2 nvme
+    - 2To SSD 2.5' SATA
 
 ## Linux
 
-WIP
+- SteamDeck (SteamOS + Arch Linux)
 
 ## Serveurs
 
-WIP
+- Macbook pro 13' 2020 M1
 
 ## Autres
 
-WIP
+- Xbox One X
+- Xiaomi smart camera C200
+- Lenovo M10+ FHD
+- PS2

@@ -1,19 +1,21 @@
-# Мои программы
+<script setup>
+    import SoftwareCard from "../../../components/SoftwareCard.vue"
+</script>
 
-НЗП 🔧
+# Мои программы <Badge type="tip" text="НЗП" />
 
 ## MacOS
 
-НЗП
+<SoftwareCard wanted='mac' />
 
 ## Windows
 
-НЗП
+<SoftwareCard wanted='win' />
 
 ## Linux
 
-НЗП
+<SoftwareCard wanted='linux' />
 
 ## Другие
 
-НЗП
+<SoftwareCard wanted='other' />

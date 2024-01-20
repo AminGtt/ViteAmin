@@ -4,8 +4,6 @@
 
 # My softwares <Badge type="tip" text="WIP" />
 
-Here I will share you the softwares that I use/like 🔧
-
 ## MacOS
 
 <SoftwareCard wanted='mac' />

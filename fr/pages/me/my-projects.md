@@ -1,11 +1,15 @@
-# Mes projets
+# Mes projets <Badge type="tip" text="WIP" />
 
-WIP
+::: tip Hey 👋🏽
+Here I will share you my projects done or my plans for future ones
+:::
 
-## Projets frontend 
+## Coming soon
 
-WIP
+ViteStation 3
 
-## Projets WebXR 
+Interactive Solar System
 
-WIP
+ISS Live Tracker
+
+Aframe-test

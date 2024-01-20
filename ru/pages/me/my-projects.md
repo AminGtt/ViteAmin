@@ -1,11 +1,15 @@
-# Мои проекты
+# Мои проекты <Badge type="tip" text="НЗП" />
 
-НЗП
+::: tip Hey 👋🏽
+Here I will share you my projects done or my plans for future ones
+:::
 
-## Интерфейсные проекты
+## Coming soon
 
-НЗП
+ViteStation 3
 
-## Проекты WebXR
+Interactive Solar System
 
-НЗП
+ISS Live Tracker
+
+Aframe-test

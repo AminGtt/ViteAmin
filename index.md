@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Welcome! WIP 🔨"
+  name: "Welcome!"
   text: "Vite + Amin = ViteAmin 🧠"
   tagline: "I'm pleased to see you here! <br>You will find all my projects and even more in this place 👋🏽"
   image:
@@ -13,8 +13,8 @@ hero:
       text: Who am I?
       link: /pages/me/who-am-i
     - theme: alt
-      text: My projects
-      link: /pages/me/my-projects
+      text: My stack
+      link: /pages/me/my-technos
 
 features:
   - title: Discover me
