@@ -1,57 +1,23 @@
+<script setup>
+    import SoftwareCard from "../../components/SoftwareCard.vue"
+</script>
+
 # My softwares <Badge type="tip" text="WIP" />
 
 Here I will share you the softwares that I use/like 🔧
 
 ## MacOS
 
-- Arc
-- rectangle 
-- Maccy
-- MenubarX
-- AiTab
-- HiddenBar
-- CodeWhisperer
-- BatteryBoi
-- Jiffy
-- Brandy
-- The unarchiver
-- AppCleaner
-- Wineskin winery
-- Fanny
-- KeyboardCleanTool
-- iTerm2
-- xbar
-
-
+<SoftwareCard wanted='mac' />
 
 ## Windows
 
-- Steam
-- Battle.net
+<SoftwareCard wanted='win' />
 
 ## Linux
 
-- nmap
-- EmuDeck
-- WineTricks
+<SoftwareCard wanted='linux' />
 
 ## Others
 
-- IDEs :
-    - VSCode
-    - Jetbrains suite
-    - Android studio
-    - Fleet
-    - XCode
-- Docker
-- mpv
-- qBitTorrent
-- Jellyfin
-- Prowlarr
-- Radarr
-- Sonarr
-- Lidarr
-- Discord
-- Bitwarden
-- Deezer
-- Brave
+<SoftwareCard wanted='other' />

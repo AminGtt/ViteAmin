@@ -4,14 +4,12 @@
 Here I will share you my projects done or my plans for future ones
 :::
 
-## Frontend projects 
+## Coming soon
 
 ViteStation 3
 
 Interactive Solar System
 
 ISS Live Tracker
-
-## WebXR projects 
 
 Aframe-test

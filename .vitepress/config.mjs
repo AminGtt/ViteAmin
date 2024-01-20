@@ -35,7 +35,7 @@ export default defineConfig({
     ],
     aside: "true",
     footer: {
-      message: 'Made with 💖 by Amin G',
+      message: 'Made with 💖 by Amin Gatta',
       copyright: 'Copyright ©2023'
     },
     search: {
