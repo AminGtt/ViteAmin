@@ -4,7 +4,6 @@ const props = defineProps(['wanted'])
 
 const front = [
     'HTML',
-    'C#',
     'CSS',
     'Sass',
     'JavaScript',
@@ -13,6 +12,7 @@ const front = [
     'Vue',
     'Vite',
     'VitePress',
+    'TresJS',
     'Dart',
     'Astro',
     'WebXR',
@@ -48,6 +48,7 @@ other = [
     'Git',
     'GitHub',
     'GitLab',
+    'C#',
     'NPM',
 ]
 
@@ -87,7 +88,7 @@ function replaceHash(techno) {
 
 </template>
 
-<style lang="sass">
+<style scoped lang="sass">
 
     .techno-wrapper
         display: flex

@@ -1,15 +1,15 @@
+<script setup>
+    import ProjectCard from "../../components/ProjectCard.vue"
+</script>
+
 # My projects <Badge type="tip" text="WIP" />
 
 ::: tip Hey 👋🏽
 Here I will share you my projects done or my plans for future ones
 :::
 
-## Coming soon
+<ProjectCard projectName="vs3" />
 
-ViteStation 3
+<ProjectCard projectName="iss" />
 
-Interactive Solar System
-
-ISS Live Tracker
-
-Aframe-test
+<ProjectCard projectName="isslt" />
