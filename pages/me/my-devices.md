@@ -1,12 +1,17 @@
+<script setup>
+    import DeviceCard from "../../components/DeviceCard.vue"
+</script>
+
 # My devices <Badge type="tip" text="WIP" />
+
 
 ## Apple
 
-- Macbook pro 16' 2019
-- iPhone 13 Pro
-- iPad 5th gen
-- iPad 3rd gen
-- iPod nano 4th gen
+<DeviceCard deviceName='mbp' />
+<DeviceCard deviceName='iphone' />
+<DeviceCard deviceName='ipad5' />
+<DeviceCard deviceName='ipad3' />
+<DeviceCard deviceName='nano' />
 
 ## Windows
 
