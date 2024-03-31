@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { templateCompilerOptions } from '@tresjs/core'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -77,35 +78,42 @@ export default defineConfig({
         }
       }
     },
-    ru: { 
-      label: 'Русский', 
-      link: '/ru/',
-      themeConfig: {
-        nav: [
-          { text: 'Прием', link: '/ru/' },
-          { text: 'Кто я?', link: '/ru/pages/me/who-am-i' },
-          { text: 'Мои проекты', link: '/ru/pages/me/my-projects' },
-          { text: 'Мои устройства', link: '/ru/pages/me/my-devices' },
-          { text: 'Мои программы', link: '/ru/pages/me/my-softwares' },
-          { text: 'Мой технос', link: '/ru/pages/me/my-stack' },
-        ],
-        sidebar: [
-          {
-            text: 'Я',
-            items: [
-              { text: 'Кто я?', link: '/ru/pages/me/who-am-i' },
-              { text: 'Мои проекты', link: '/ru/pages/me/my-projects' },
-              { text: 'Мои устройства', link: '/ru/pages/me/my-devices' },
-              { text: 'Мои программы', link: '/ru/pages/me/my-softwares' },
-              { text: 'Мой технос', link: '/ru/pages/me/my-stack' },
-            ]
-          },
-        ],
-        docFooter: {
-          prev: 'Предыдущая страница',
-          next: 'Следующая страница'
-        }
-      }
-    },
+    // ru: { 
+    //   label: 'Русский', 
+    //   link: '/ru/',
+    //   themeConfig: {
+    //     nav: [
+    //       { text: 'Прием', link: '/ru/' },
+    //       { text: 'Кто я?', link: '/ru/pages/me/who-am-i' },
+    //       { text: 'Мои проекты', link: '/ru/pages/me/my-projects' },
+    //       { text: 'Мои устройства', link: '/ru/pages/me/my-devices' },
+    //       { text: 'Мои программы', link: '/ru/pages/me/my-softwares' },
+    //       { text: 'Мой технос', link: '/ru/pages/me/my-stack' },
+    //     ],
+    //     sidebar: [
+    //       {
+    //         text: 'Я',
+    //         items: [
+    //           { text: 'Кто я?', link: '/ru/pages/me/who-am-i' },
+    //           { text: 'Мои проекты', link: '/ru/pages/me/my-projects' },
+    //           { text: 'Мои устройства', link: '/ru/pages/me/my-devices' },
+    //           { text: 'Мои программы', link: '/ru/pages/me/my-softwares' },
+    //           { text: 'Мой технос', link: '/ru/pages/me/my-stack' },
+    //         ]
+    //       },
+    //     ],
+    //     docFooter: {
+    //       prev: 'Предыдущая страница',
+    //       next: 'Следующая страница'
+    //     }
+    //   }
+    // },
   },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => tag.startsWith('Tres') && tag !== 'TresCanvas',
+      },
+    }
+  }
 })

@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "devDependencies": {
     "sass": "^1.70.0",
-    "vitepress": "^1.0.0-rc.31"
+    "vitepress": "^1.0.0-rc.41"
   },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "deploy": "npm run build && git add . && git commit -m 'New prod version' && git push && git subtree push --prefix .vitepress/dist origin prod"
+  },
+  "dependencies": {
+    "@tresjs/cientos": "^3.7.0",
+    "@tresjs/core": "^3.7.0",
+    "three": "^0.163.0"
   }
 }

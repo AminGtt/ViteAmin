@@ -5,34 +5,48 @@
 # My devices <Badge type="tip" text="WIP" />
 
 
-## Apple
+<!-- ## Apple -->
 
-<DeviceCard deviceName='mbp' />
-<DeviceCard deviceName='iphone' />
-<DeviceCard deviceName='ipad5' />
-<DeviceCard deviceName='ipad3' />
-<DeviceCard deviceName='nano' />
+<section class="devices">
+    <DeviceCard deviceName='mbp' />
+    <DeviceCard deviceName='iphone' />
+    <DeviceCard deviceName='pc' />
+    <DeviceCard deviceName='steamdeck' />
+    <!-- <DeviceCard deviceName='ipad5' />
+    <DeviceCard deviceName='ipad3' />
+    <DeviceCard deviceName='nano' /> -->
+</section>
 
-## Windows
+<!-- ## Windows -->
 
-- My PC : 
-    - i5-11500
-    - 32gb DDR4
-    - RTX 4070
-    - 2To SSD m.2 nvme
-    - 2To SSD 2.5' SATA
+<!-- <section class="devices">
+</section> -->
 
-## Linux
+<!-- ## Linux -->
 
-- SteamDeck (SteamOS + Arch Linux)
+<!-- <section class="devices">
+</section> -->
 
-## Servers
+<!-- ## Servers
 
-- Macbook pro 13' 2020 M1
+<section class="devices">
+    <DeviceCard deviceName='mbp_serv' />
+</section>
 
-## Others
+## Others -->
 
-- Xbox One X
-- Xiaomi smart camera C200
-- Lenovo M10+ FHD
-- PS2
+<!-- <section class="devices">
+    <DeviceCard deviceName='xbox' />
+    <DeviceCard deviceName='camc200' />
+    <DeviceCard deviceName='tabm10' />
+    <DeviceCard deviceName='ps2' />
+</section> -->
+
+
+<style scoped lang="sass">
+
+    .devices 
+     display: flex
+     flex-wrap: wrap
+
+</style>
