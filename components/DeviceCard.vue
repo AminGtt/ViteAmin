@@ -17,18 +17,6 @@ const devices = {
         path: "/img/3d/iphone_13_pro.glb",
         cameraPosition: [0.5, 0.5, 1]
     },
-    ipad5: {
-        name: 'iPad 5th gen',
-        path: "/img/3d/ipad5.glb"
-    }, 
-    ipad3: {
-        name: 'iPad 3rd gen',
-        path: "/img/3d/ipad3.glb"
-    }, 
-    nano: {
-        name: 'iPod nano 4th gen',
-        path: "/img/3d/ipod_nano.glb"
-    }, 
     pc: {
         name: 'My PC',
         path: "/img/3d/gaming_pc.glb",
@@ -39,27 +27,7 @@ const devices = {
         name: 'SteamDeck',
         path: "/img/3d/steamdeck.glb",
         cameraPosition: [0, 1, 11]
-    }, 
-    mbp_serv: {
-        name: `Macbook pro 13' 2020 M1`,
-        path: "/img/3d/macbook_pro.glb"
-    }, 
-    xbox: {
-        name: 'Xbox One X',
-        path: "/img/3d/xbox_one_x.glb"
-    }, 
-    camc200: {
-        name: 'Xiaomi smart camera C200',
-        path: "/img/3d/xiaomi_cam.glb"
-    }, 
-    tabm10: {
-        name: 'Lenovo M10+ FHD',
-        path: "/img/3d/lenovo_tab.glb"
-    }, 
-    ps2: {
-        name: 'PlayStation 2',
-        path: "/img/3d/playstation_2.glb"
-    }
+    },
 }
 
 </script>

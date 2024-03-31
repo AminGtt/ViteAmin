@@ -20,14 +20,6 @@ const projects = {
             },
         }
     },
-    iss: {
-        name: 'Interactive Solar System',
-        details: 'WIP'
-    },
-    isslt: {
-        name: 'ISS Live Tracker',
-        details: 'WIP'
-    }
 }
 
 onMounted(() => {
