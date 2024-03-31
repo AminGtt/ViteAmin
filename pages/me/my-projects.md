@@ -2,10 +2,10 @@
     import ProjectCard from "../../components/ProjectCard.vue"
 </script>
 
-# My projects <Badge type="tip" text="WIP" />
+# Mes projets <Badge type="tip" text="WIP" />
 
 ::: tip Hey 👋🏽
-Here I will share you my projects done or my plans for future ones
+Ici vous trouverez mes projets fait ainsi que d'autres à venir.
 :::
 
 <ProjectCard projectName="vs3" />

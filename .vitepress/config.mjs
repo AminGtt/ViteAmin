@@ -6,27 +6,27 @@ export default defineConfig({
   base: '/',
   head: [['link', { rel: 'icon', href: '/img/my-avatar.png' }]],
   title: "ViteAmin",
-  description: "My VitePress portfolio",
+  description: "Mon portfolio",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/my-avatar.png",
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Who am I?', link: '/pages/me/who-am-i' },
-      { text: 'My projects', link: '/pages/me/my-projects' },
-      { text: 'My devices', link: '/pages/me/my-devices' },
-      { text: 'My softwares', link: '/pages/me/my-softwares' },
-      { text: 'My stack', link: '/pages/me/my-stack' },
+      { text: 'Accueil', link: '/' },
+      { text: 'Qui suis-je?', link: '/pages/me/who-am-i' },
+      { text: 'Mes projets', link: '/pages/me/my-projects' },
+      { text: 'Mes appareils', link: '/pages/me/my-devices' },
+      { text: 'Mes logiciels', link: '/pages/me/my-softwares' },
+      { text: 'Mes technos', link: '/pages/me/my-stack' },
     ],
     sidebar: [
       {
-        text: 'Me',
+        text: 'Moi',
         items: [
-          { text: 'Who am I?', link: '/pages/me/who-am-i' },
-          { text: 'My projects', link: '/pages/me/my-projects' },
-          { text: 'My devices', link: '/pages/me/my-devices' },
-          { text: 'My softwares', link: '/pages/me/my-softwares' },
-          { text: 'My stack', link: '/pages/me/my-stack' },
+          { text: 'Qui suis-je?', link: '/pages/me/who-am-i' },
+          { text: 'Mes projets', link: '/pages/me/my-projects' },
+          { text: 'Mes appareils', link: '/pages/me/my-devices' },
+          { text: 'Mes logiciels', link: '/pages/me/my-softwares' },
+          { text: 'Mes technos', link: '/pages/me/my-stack' },
         ]
       },
     ],
@@ -46,36 +46,32 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: 'English'
+      label: 'Français'
     },
-    fr: { 
-      label: 'Français', 
-      link: '/fr/',
+    en: { 
+      label: 'English', 
+      link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Accueil', link: '/fr/' },
-          { text: 'Qui suis-je?', link: '/fr/pages/me/who-am-i' },
-          { text: 'Mes projets', link: '/fr/pages/me/my-projects' },
-          { text: 'Mes appareils', link: '/fr/pages/me/my-devices' },
-          { text: 'Mes logiciels', link: '/fr/pages/me/my-softwares' },
-          { text: 'Mes technos', link: '/fr/pages/me/my-stack' },
+          { text: 'Home', link: '/en/' },
+          { text: 'Who am I?', link: '/en/pages/me/who-am-i' },
+          { text: 'My projects', link: '/en/pages/me/my-projects' },
+          { text: 'My devices', link: '/en/pages/me/my-devices' },
+          { text: 'My softwares', link: '/en/pages/me/my-softwares' },
+          { text: 'My stack', link: '/en/pages/me/my-stack' },
         ],
         sidebar: [
           {
-            text: 'Moi',
+            text: 'Me',
             items: [
-              { text: 'Qui suis-je?', link: '/fr/pages/me/who-am-i' },
-              { text: 'Mes projets', link: '/fr/pages/me/my-projects' },
-              { text: 'Mes appareils', link: '/fr/pages/me/my-devices' },
-              { text: 'Mes logiciels', link: '/fr/pages/me/my-softwares' },
-              { text: 'Mes technos', link: '/fr/pages/me/my-stack' },
+              { text: 'Who am I?', link: '/en/pages/me/who-am-i' },
+              { text: 'My projects', link: '/en/pages/me/my-projects' },
+              { text: 'My devices', link: '/en/pages/me/my-devices' },
+              { text: 'My softwares', link: '/en/pages/me/my-softwares' },
+              { text: 'My stack', link: '/en/pages/me/my-stack' },
             ]
           },
-        ],
-        docFooter: {
-          prev: 'Page précédente',
-          next: 'Page suivante'
-        }
+        ]
       }
     },
     // ru: { 

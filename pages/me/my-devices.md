@@ -2,7 +2,7 @@
     import DeviceCard from "../../components/DeviceCard.vue"
 </script>
 
-# My devices <Badge type="tip" text="WIP" />
+# Mes appareils <Badge type="tip" text="WIP" />
 
 <section class="devices">
     <DeviceCard deviceName='mbp' />

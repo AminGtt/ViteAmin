@@ -3,37 +3,36 @@
 layout: home
 
 hero:
-  name: "Bienvenue!"
+  name: "Welcome!"
   text: "Vite + Amin = ViteAmin 🧠"
-  tagline: "Ravi de vous voir! <br>Vous trouverez mes projets et bien plus ici 👋🏽"
+  tagline: "I'm pleased to see you here! <br>You will find all my projects and even more in this place 👋🏽"
   image:
     src: /img/my-avatar.png
   actions:
     - theme: brand
-      text: Qui suis-je?
-      link: /fr/pages/me/who-am-i
+      text: Who am I?
+      link: /en/pages/me/who-am-i
     - theme: alt
-      text: Mes technos
-      link: /fr/pages/me/my-technos
+      text: My stack
+      link: /en/pages/me/my-technos
 
 features:
-  - title: Découvrez moi
+  - title: Discover me
+    # details: Lorem
     link: /pages/me/who-am-i
-    linkText: En savoir plus?
+    linkText: Wanna know more?
     icon: 
       src: https://img.icons8.com/3d-fluency/94/search.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Suivez mes projets
+  - title: Stay connected
+    # details: Lorem ipsum
     icon: 
       src: https://img.icons8.com/3d-fluency/94/connected.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Restons connecté
-    details: Jette un oeil à mes creations
+  - title: Follow my evolution
+    details: Take a look in my creations
     link: "/pages/me/my-projects"
-    linkText: Voir mes projets
+    linkText: Check out my projects
     icon: 
       src: https://img.icons8.com/3d-fluency/94/visible.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 <script setup>
@@ -54,7 +53,7 @@ const members = [
 
 <div class="vp-doc team-cards">
 
-## Moi
+## Me
 
 <VPTeamMembers size="small" :members="members" />
 

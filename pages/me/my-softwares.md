@@ -2,7 +2,7 @@
     import SoftwareCard from "../../components/SoftwareCard.vue"
 </script>
 
-# My softwares <Badge type="tip" text="WIP" />
+# Mes logiciels <Badge type="tip" text="WIP" />
 
 ## MacOS
 
@@ -16,6 +16,6 @@
 
 <SoftwareCard wanted='linux' />
 
-## Others
+## Autres
 
 <SoftwareCard wanted='other' />

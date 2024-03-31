@@ -2,7 +2,7 @@
     import TechnoCard from "../../../components/TechnoCard.vue"
 </script>
 
-# Mes technos <Badge type="tip" text="WIP" />
+# My stack <Badge type="tip" text="WIP" />
 
 ## Front-end
 
@@ -20,6 +20,6 @@
 
 <TechnoCard wanted='ops' />
 
-## Autres
+## Others
 
 <TechnoCard wanted='other' />
