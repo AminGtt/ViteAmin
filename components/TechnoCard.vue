@@ -34,6 +34,7 @@ mobile = [
 ],
 ops = [
     'Apache2',
+    'Nginx',
     'Docker',
     'Ansible',
 ],

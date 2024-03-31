@@ -17,7 +17,6 @@ const mac = [
     'Rectangle',
     'The Unarchiver',
     'Warp',
-    'Wineskin winery',
     'xbar',
 ], 
 win = [
@@ -38,15 +37,9 @@ other = [
     'Docker',
     'mpv',
     'qBitTorrent',
-    'Jellyfin',
-    'Prowlarr',
-    'Radarr',
-    'Sonarr',
-    'Lidarr',
     'Discord',
     'Bitwarden',
     'Deezer',
-    'Brave',
     'Figma',
 ]
 
