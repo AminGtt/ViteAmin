@@ -1,33 +1,21 @@
+<script setup>
+    import DeviceCard from "../../../components/DeviceCard.vue"
+</script>
+
 # Mes appareils <Badge type="tip" text="WIP" />
 
-## Apple
+<section class="devices">
+    <DeviceCard deviceName='mbp' />
+    <DeviceCard deviceName='iphone' />
+    <DeviceCard deviceName='pc' />
+    <DeviceCard deviceName='steamdeck' />
+</section>
 
-- Macbook pro 16' 2019
-- iPhone 13 Pro
-- iPad 5th gen
-- iPad 3rd gen
-- iPod nano 4th gen
 
-## Windows
+<style scoped lang="sass">
 
-- My PC : 
-    - i5-11500
-    - 32gb DDR4
-    - RTX 4070
-    - 2To SSD m.2 nvme
-    - 2To SSD 2.5' SATA
+    .devices 
+     display: flex
+     flex-wrap: wrap
 
-## Linux
-
-- SteamDeck (SteamOS + Arch Linux)
-
-## Serveurs
-
-- Macbook pro 13' 2020 M1
-
-## Autres
-
-- Xbox One X
-- Xiaomi smart camera C200
-- Lenovo M10+ FHD
-- PS2
+</style>
