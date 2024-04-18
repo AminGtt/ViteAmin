@@ -14,20 +14,21 @@ const front = [
     'VitePress',
     'TresJS',
     'Dart',
-    'Astro',
     'WebXR',
     'Aframe'
 ],
 back = [
-   'PHP',
-   'Symfony',
-   'Python',
-   'Pyramid',
-   'FastAPI',
-   'MySQL',
-   'PostgreSQL',
-   'Twig',
-   'Jinja'
+    'NodeJS',
+    'AdonisJS',
+    'Python',
+    'Pyramid',
+    'FastAPI',
+    'PHP',
+    'Symfony',
+    'MySQL',
+    'PostgreSQL',
+    'Twig',
+    'Jinja',
 ], 
 mobile = [
     'Flutter'
@@ -49,7 +50,6 @@ other = [
     'Git',
     'GitHub',
     'GitLab',
-    'C#',
     'NPM',
 ]
 
